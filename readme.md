@@ -1,3 +1,4 @@
+
 # Real Time Sign Language Detection
 
 [![Google Mediapipe](https://camo.githubusercontent.com/a7f74d0f690e7e8e7a51a4e7d523f2eac48327a5bc03d7e77a8ce2c4029d581a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476f6f676c652532304672616d65776f726b2d4d65646961506970652d627269676874677265656e)](https://google.github.io/mediapipe/) 
@@ -17,6 +18,15 @@ community and the general public. The main purpose of this project is to demonst
 - [@swapnil dadamode](https://github.com/iamSwaps)
 
 
+## Step by step process to build Sign Language Recognition project using MediaPipe
+
+Run !pip install mediapipe to install Mediapipe in your Windows/Mac OS.
+Use EXTRACT_DATA.py to Pre-Proprocess dataset. That is extracting landmarks as features using Mediapipe.
+Build your own Machine Learning Model.
+Use app.py to test your model in real-time environment using Mediapipe Technology
+
+
+
 ## Installation
 
 Run the below command in your Windows/Mac OS.
@@ -25,4 +35,9 @@ Run the below command in your Windows/Mac OS.
   pip install -r requirements.txt
 ```
     
-Use ```hand_detection_webcam.py``` to test your model in real-time environment using Mediapipe Technology
+Use ```app.py``` to test your model in real-time environment using Mediapipe Technology
+
+## Sign language for reference
+
+![App Screenshot](https://github.com/swojas/RTSLD/blob/main/static/asl.png?raw=true)
+
