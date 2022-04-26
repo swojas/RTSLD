@@ -37,7 +37,12 @@ Run the below command in your Windows/Mac OS.
     
 Use ```app.py``` to test your model in real-time environment using Mediapipe Technology
 
+
 ## Sign language for reference
 
 ![App Screenshot](https://github.com/swojas/RTSLD/blob/main/static/asl.png?raw=true)
+
+#
+
+![App Screenshot](https://github.com/swojas/RTSLD/blob/main/static/Screenshot%202022-04-26%20200402.png?raw=true)
 
