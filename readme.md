@@ -45,7 +45,6 @@ Use ```app.py``` to test your model in real-time environment using Mediapipe Tec
 #
 
 
-
 https://user-images.githubusercontent.com/60619308/165441616-f00dd6b5-4e5c-4ef7-af59-cdc75b24dff4.mp4
 
 
