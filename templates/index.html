@@ -31,6 +31,8 @@
     interval = setInterval(updateListOfAlphabets, timeSlider);
     alphabet = '';
     $("#result-div-autoupdate").empty();
+    $("#appendSpeedSlider").prop( "disabled", false );
+    $("#buttonStatus").text("Started");
   }
 
   $(window).on('load', function () {
@@ -47,8 +49,9 @@
 
 
   function stopText() {
-    $("#startButton").html('Start');
     clearInterval(interval);
+    $("#appendSpeedSlider").prop( "disabled", true );
+    $("#startButton").html('Start');
   }
 
   
@@ -110,6 +113,9 @@
         <li class="nav-item">
           <a href="/" class="nav-link">Home</a>
         </li>
+        <li class="nav-item">
+          <a href="/SLinfo" class="nav-link">What is Sign Language?</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
@@ -118,12 +124,9 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="https://github.com/swojas" target="_blank">Swojas Bhalunkar</a>
             <a class="dropdown-item" href="https://github.com/iamSwaps" target="_blank">Swapnil Dadamode</a>
-            <a class="dropdown-item" href="#" target="_blank">Siddhi Ekatpure</a>
+            <a class="dropdown-item" href="https://github.com/Siddhi2106" target="_blank">Siddhi Ekatpure</a>
             <a class="dropdown-item" href="#" target="_blank">Divya Deshmukh</a>
           </div>
-        </li>
-        <li class="nav-item">
-          <a href="/SLinfo" class="nav-link">What is Sign Language?</a>
         </li>
       </ul>
     </div>
