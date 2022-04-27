@@ -44,5 +44,5 @@ Use ```app.py``` to test your model in real-time environment using Mediapipe Tec
 
 #
 
-![App Screenshot](https://github.com/swojas/RTSLD/blob/main/static/Screenshot%202022-04-26%20200402.png?raw=true)
+![App Screenshot](https://github.com/swojas/RTSLD/blob/main/static/editeddemo.mp4?raw=true)
 
