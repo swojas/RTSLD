@@ -30,6 +30,7 @@
     alphabet = '';
     $("#result-div-autoupdate").empty();
     $("#appendSpeedSlider").prop( "disabled", false );
+    $("#buttonStatus").text("Started");
   }
 
   $(window).on('load', function () {
@@ -48,6 +49,7 @@
   function stopText() {
     clearInterval(interval);
     $("#appendSpeedSlider").prop( "disabled", true );
+    $("#buttonStatus").text("Stopped");
   }
 
   
@@ -141,7 +143,7 @@
           <button onclick="stopText()" class="btn-danger btn">Stop</button>
           <button onclick="clearText()" class="btn-secondary btn">Clear</button>
           <input type="range" value="3" min="1" max="10" id="appendSpeedSlider" oninput="this.nextElementSibling.value = this.value">
-          <span id="showValue">3</span>
+          <output id="buttonStatus" class="px-2"></output>
           <img src="static/asl.png" , class="responsive py-3">
         </div>
       </div>
