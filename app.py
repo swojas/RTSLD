@@ -34,6 +34,10 @@ def video_feed():
 def index():
     return render_template('index.html', message="{a}".format(a=a))
 
+@app.route('/SLinfo')
+def slinfo():
+    return render_template('signLanguageInfo.html')
+
 detected=None
 a='A'
 print(a)

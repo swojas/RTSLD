@@ -32,7 +32,7 @@ def data_clean(landmark):
 
 
 def detection(success, image):
-  global letter
+  letter=''
   while True:
     image = cv2.flip(image, 1)
     if not success:
@@ -55,4 +55,3 @@ def detection(success, image):
     return image,letter
 
 
-letter=''
